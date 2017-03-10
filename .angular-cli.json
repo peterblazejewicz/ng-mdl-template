@@ -19,9 +19,11 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "ngmdl",
       "styles": [
-        "styles.scss"
+        "scss/main.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/material-design-lite/dist/material.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
