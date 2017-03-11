@@ -1,0 +1,24 @@
+.android-header {
+    overflow: visible;
+    background-color: white;
+}
+
+.android-header .material-icons {
+    color: #767777 !important;
+}
+
+.android-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+}
+
+.android-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.android-header .mdl-menu__container {
+    z-index: 50;
+    margin: 0 !important;
+}

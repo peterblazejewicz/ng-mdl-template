@@ -1,7 +1,14 @@
-// components
-@import "components/buttons";
 // vendors
 @import "vendors/material-design-lite";
 @import "vendors/material-design-icons";
+// base
+@import "base/reset";
+// partials
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/drawer";
+@import "partials/footer";
+// components
+@import "components/buttons";
 // pages
 @import "pages/home";
